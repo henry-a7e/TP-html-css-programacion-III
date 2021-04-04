@@ -1,0 +1,199 @@
+*{
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: rgb(190, 190, 190);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/imagen\ biologia\ panoramico.jpg);
+  background-size: cover; 
+  background-attachment: fixed;
+  /* position: relative; */
+}
+nav{
+  background: linear-gradient(90deg, rgba(60, 235, 44, 0.779) 18%, rgba(73, 193, 147, 0.911) 41%, rgba(32, 140, 73, 0.858) 61%, rgba(29, 199, 14, 0.911) 81%);
+  width: 100%;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 100;
+}
+header nav a{
+  display:inline-block;
+  padding:7px;
+  tab-size: 100px;
+  color:cornsilk;
+  text-decoration: none; 
+ /*  line-height: 150%; */
+  margin-right: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+}
+header nav a:hover{
+  z-index:200;
+  background-color: green;
+  border-radius:10px;
+}
+#main-title {
+  display: flex;
+  height: 370px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+body{
+  background:rgba(127, 214, 119, 0.911);
+}
+
+#contenedor{
+  padding: 60 px;
+  padding-bottom: 40px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+.sub{
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  display: inline-block;
+
+}
+.par1{
+  display: flex;
+}
+.p-inicio{
+  font-size: 20px;
+  padding-right: 20px;
+}
+#img1{
+  width: 500px;
+  height: 300px;
+}
+#img2{
+  width: 500px;
+  height: 300px;
+}
+
+
+
+/* --------------BIOGRAFIA------------ */
+#contenedor-biografia{
+  display: flex;
+}
+#imagen-bio{
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+
+/* -------Curriculum----------------- */
+#curriculum-pdf{
+  color: green;
+  font-size: 30px;
+  font-style:italic;
+
+}
+
+/* ----------CONTACTO--------- */
+
+#h3-contacto{
+  padding: 30px;
+}
+table{
+  padding: 10px;
+}
+td{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------FOOTER-------------- */
+footer{
+  background: rgb(65, 138, 65);
+  width: 100%;
+  justify-content: space-evenly;
+  /* margin: auto; */
+  padding: 30px;
+}
+footer h4{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ */
+#header {
+  background-color: #656565;
+  /* margin: 40px; */
+  padding: 20px;
+}
+
+/* h1, h2, h3, h4 {
+  color: red;
+} */
+
+#main-title {
+  font-size: 60px;
+}
+
+#main {
+  background-color: white;
+  width: 80%;
+
+  /* margin: 50px; */
+  margin:  20px auto;
+  /* margin: 0px 50px 600px 250px; */
+}
+
+.links {
+  font-size: 22px;
+}
+
+#footer {
+  background-color: rgb(144, 144, 144);
+}
